@@ -1,0 +1,49 @@
+id: wordpress-extendify
+
+info:
+  name: Extendify Detection
+  author: ricardomaia
+  severity: info
+  reference:
+    - https://wordpress.org/plugins/extendify/
+  metadata:
+    plugin_namespace: extendify
+    wpscan: https://wpscan.com/plugin/extendify
+  tags: tech,wordpress,wp-plugin,top-200
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/wp-content/plugins/extendify/readme.txt"
+
+    payloads:
+      last_version: helpers/wordpress/plugins/extendify.txt
+
+    extractors:
+      - type: regex
+        part: body
+        internal: true
+        name: internal_detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+      - type: regex
+        part: body
+        name: detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+    matchers-condition: or
+    matchers:
+      - type: dsl
+        name: "outdated_version"
+        dsl:
+          - compare_versions(internal_detected_version, concat("< ", last_version))
+
+      - type: regex
+        part: body
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+# digest: 4a0a0047304502207a6847815dc34463482af1c6b421d712ac2c4ec91c4adc64d1baa15e28462285022100a21a5b0987822e228638c829f0017c96120095ebf6e775e51386efb314cd2372:922c64590222798bb761d5b6d8e72950

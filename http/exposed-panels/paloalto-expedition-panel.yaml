@@ -1,0 +1,36 @@
+id: paloalto-expedition-panel
+
+info:
+  name: Palo Alto Expedition Project Login - Detect
+  author: johnk3r
+  severity: info
+  description: |
+    Palo Alto Expedition Project login panel was detected.
+  metadata:
+    verified: true
+    max-request: 1
+    vendor: paloaltonetworks
+    product: expedition
+    shodan-query: http.favicon.hash:1499876150
+  tags: panel,expedition,palo-alto,login,detect
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "<title>Expedition Project</title>"
+
+      - type: status
+        status:
+          - 200
+
+# digest: 4a0a004730450220639bf929eb096fc1fdcb510e30759eb3554b84d5b8122224a9e744381001a75f022100c9bcb971a1a1541558000f2efebac25102767b75e342e8e9a32f20d1498e02f2:922c64590222798bb761d5b6d8e72950
