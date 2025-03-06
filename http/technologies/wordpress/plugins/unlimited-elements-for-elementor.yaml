@@ -1,23 +1,23 @@
-id: wordpress-wpcf7-redirect
+id: wordpress-unlimited-elements-for-elementor
 
 info:
-  name: Redirection for Contact Form 7 Detection
+  name: Unlimited Elements For Elementor Detection
   author: ricardomaia
   severity: info
   reference:
-    - https://wordpress.org/plugins/wpcf7-redirect/
+    - https://wordpress.org/plugins/unlimited-elements-for-elementor/
   metadata:
-    plugin_namespace: wpcf7-redirect
-    wpscan: https://wpscan.com/plugin/wpcf7-redirect
+    plugin_namespace: unlimited-elements-for-elementor
+    wpscan: https://wpscan.com/plugin/unlimited-elements-for-elementor
   tags: tech,wordpress,wp-plugin,top-200
 
 http:
   - method: GET
     path:
-      - "{{BaseURL}}/wp-content/plugins/wpcf7-redirect/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/unlimited-elements-for-elementor/readme.txt"
 
     payloads:
-      last_version: helpers/wordpress/plugins/wpcf7-redirect.txt
+      last_version: helpers/wordpress/plugins/unlimited-elements-for-elementor.txt
 
     extractors:
       - type: regex
@@ -46,4 +46,3 @@ http:
         part: body
         regex:
           - '(?i)Stable.tag:\s?([\w.]+)'
-# digest: 4a0a00473045022100f215fe62b322d5aa8d28b377221df438dce018bcdd30915866ba7bc9aa0772ee0220365a44dee298e0b9cdddc7018941e0653a23ac49809e8b162aa1d2adc095dbe1:922c64590222798bb761d5b6d8e72950
