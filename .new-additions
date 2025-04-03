@@ -1,5 +1,15 @@
+file/android/android-user-certificates-trust.yaml
+http/cves/2023/CVE-2023-22047.yaml
+http/cves/2025/CVE-2025-2294.yaml
 http/cves/2025/CVE-2025-24799.yaml
 http/cves/2025/CVE-2025-2748.yaml
 http/cves/2025/CVE-2025-30567.yaml
+http/misconfiguration/prometheus/prometheus-unauth.yaml
+http/technologies/couchdb-detect.yaml
 http/technologies/wordpress/plugins/pagelayer.yaml
 http/technologies/wordpress/plugins/unlimited-elements-for-elementor.yaml
+http/vulnerabilities/other/httpbin-contenttype-xss.yaml
+javascript/detection/oracle-detect.yaml
+javascript/detection/rdp-detect.yaml
+javascript/enumeration/smb/ntlm-info.yaml
+javascript/enumeration/smb/smb-v1-supported.yaml
