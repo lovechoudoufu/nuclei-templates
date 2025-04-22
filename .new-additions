@@ -1,6 +1,12 @@
 http/cves/2025/CVE-2025-30406.yaml
+http/exposed-panels/cockpit-project-panel.yaml
 http/exposed-panels/orangehrm-panel.yaml
+http/misconfiguration/installer/dokploy-installer.yaml
+http/misconfiguration/installer/listmonk-installer.yaml
+http/misconfiguration/mailpit-app-info-disclosure.yaml
 http/misconfiguration/ntfy-web-exposure.yaml
+http/misconfiguration/smtp4dev-interface-exposed.yaml
+http/technologies/apache/apache-activemq-artemis-detect.yaml
 http/technologies/ibm/ibm-spectrum-detect.yaml
 http/technologies/openarchives-detect.yaml
 http/technologies/wordpress/plugins/gosmtp.yaml
@@ -10,3 +16,13 @@ javascript/default-logins/ldap-default-login.yaml
 network/detection/erlang-otp-ssh-detect.yaml
 ssl/fortinet/fortiswitch-certificate.yaml
 ssl/fortinet/fortiweb-certificate.yaml
+workflows/ldap-workflow.yaml
+workflows/mongodb-workflow.yaml
+workflows/mysql-workflow.yaml
+workflows/pop3-workflow.yaml
+workflows/pqsql-wordflow.yaml
+workflows/rdp-workflow.yaml
+workflows/redis-workflow.yaml
+workflows/smb-workflow.yaml
+workflows/smtp-workflow.yaml
+workflows/ssh-workflow.yaml
