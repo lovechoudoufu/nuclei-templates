@@ -24,4 +24,4 @@ http:
           - 'status_code == 200'
           - 'contains_any(body, "<title>Haivision Media Platform", "content=\"Haivision Network Video")'
         condition: and
-# digest: 4b0a004830460221008cb6355513042dd33a01d17fa438c907e20514366a37ddb81d396acf9dfe5d7c022100a46a9d1242bd3a85fb8db1af9b644125a1f3989dafcb29969cacd5908710b8c5:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100a1a685302ba0bfad013584db75963bdae7b0f463d06c4279c5f2ffa9fb77a8cd02200e6f51aa0624147b8fc26a30add37acbd104f2842ca7cd8d96158c9f75466516:922c64590222798bb761d5b6d8e72950

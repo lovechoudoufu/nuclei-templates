@@ -26,4 +26,4 @@ http:
           - 'status_code == 200'
           - 'contains_any(to_lower(body), "<title>pghero", "/assets/pghero/", ">pghero</a>")'
         condition: and
-# digest: 4a0a00473045022100c26d6cc26c8f50f3b92652bd9fbaad18c79b9760ec8780d8806e7baa2dfac0b002203167e3d582cb5a7fa41cc7e43ed185a11b16d6f4ebe6728d141b0dcbbf1eea17:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100d71e2611c5c30d83bfe89bd8e3e8e501d896fafe0035b87f0b2b2273b5ad92ef022100f0b368bce32034b6abf26e3557f7c7db5958f94ef5e9aac7e41b56265e33d01c:922c64590222798bb761d5b6d8e72950
