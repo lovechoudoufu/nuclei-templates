@@ -1,0 +1,16 @@
+http/cves/2025/CVE-2025-2011.yaml
+http/cves/2025/CVE-2025-2127.yaml
+http/cves/2025/CVE-2025-27007.yaml
+http/cves/2025/CVE-2025-4388.yaml
+http/cves/2025/CVE-2025-4396.yaml
+http/default-logins/nti/enviromuux-default-login.yaml
+http/exposed-panels/aperio-eslidemanager-panel.yaml
+http/exposed-panels/sap-netweaver-cet-detect.yaml
+http/misconfiguration/traccar-settings-disclosure.yaml
+http/technologies/docker-registry-browser-detect.yaml
+http/technologies/plantumlserver-detect.yaml
+http/technologies/webswing-api-version-detect.yaml
+http/technologies/wordpress/plugins/blocksy-companion.yaml
+http/technologies/wordpress/plugins/gosmtp.yaml
+http/technologies/wordpress/plugins/pagelayer.yaml
+http/technologies/wordpress/plugins/unlimited-elements-for-elementor.yaml

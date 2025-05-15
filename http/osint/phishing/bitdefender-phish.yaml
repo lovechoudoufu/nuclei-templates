@@ -33,4 +33,4 @@ http:
         dsl:
           - '!contains(host,"bitdefender.com")'
           - '!contains(host,"bitdefender.co.uk")'
-# digest: 4a0a00473045022074cfe9019c24dceb094762a4f74ae5edf22ac218a5e880c8e1ce9e5c48df09f00221008cd48256949ecaea21ff4dbfe7eef9e3abc3a02adf3f5895ea6e32cca92c7e7c:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a004730450220767380cafa70bafe993ee08c4daaaa02aab474fdf0eacdc14c4f44512f15749502210091aec1f61e67cdf063c2575a0dcb9dede9935957feafd9dd2c842f475ff7d7ff:922c64590222798bb761d5b6d8e72950
