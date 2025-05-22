@@ -1,5 +1,7 @@
 http/cves/2018/CVE-2018-20062.yaml
 http/cves/2020/CVE-2020-15415.yaml
+http/cves/2021/CVE-2021-25161.yaml
+http/cves/2021/CVE-2021-36646.yaml
 http/cves/2024/CVE-2024-2473.yaml
 http/cves/2025/CVE-2025-1743.yaml
 http/cves/2025/CVE-2025-2011.yaml
@@ -17,6 +19,7 @@ http/default-logins/osasi/osasi-default-login.yaml
 http/default-logins/siemens/siemens-simatic-default-login.yaml
 http/default-logins/wago/wago-webbased-default-login.yaml
 http/exposed-panels/aperio-eslidemanager-panel.yaml
+http/exposed-panels/mbilling-panel.yaml
 http/exposed-panels/osasi-panel.yaml
 http/exposed-panels/sap-netweaver-cet-detect.yaml
 http/iot/cae-monitor-panel.yaml
@@ -34,3 +37,5 @@ http/technologies/wordpress/plugins/gosmtp.yaml
 http/technologies/wordpress/plugins/pagelayer.yaml
 http/technologies/wordpress/plugins/siteseo.yaml
 http/technologies/wordpress/plugins/unlimited-elements-for-elementor.yaml
+http/vulnerabilities/versa/versa-concerto-actuators-auth-bypass.yaml
+http/vulnerabilities/versa/versa-concerto-api-auth-bypass.yaml
