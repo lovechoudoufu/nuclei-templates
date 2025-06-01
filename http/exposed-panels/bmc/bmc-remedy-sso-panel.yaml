@@ -28,4 +28,4 @@ http:
           - 'status_code == 200'
           - 'contains(to_lower(body), "<title>bmc remedy single sign-on domain data entry")'
         condition: and
-# digest: 490a004630440220522aafbc8ad372abb4bc4071437af19daece4d9ec53386f77764aceab6f13d9c022011239745358e1729e1506b9123538cd1a0b65c97a557dd326259ddcbb93816ac:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100bda208a5b66467a1b05908401a99bce70c1a0b30decbd3e0b52d0f0ddc0f584a022100e57b6b3f9b5be87b46cedc7dbead28b4349fa172b65d5c24feded5821c52d4d2:922c64590222798bb761d5b6d8e72950
